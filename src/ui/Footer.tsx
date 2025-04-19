@@ -40,11 +40,11 @@ const Footer:React.FC = () => {
           <div className="footer-column">
             <h4>Navigation</h4>
             <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="features.html">Features</a></li>
-              <li><a href="tokenomics.html">Tokenomics</a></li>
-              <li><a href="roadmap.html">Roadmap</a></li>
+              <li><a href="/">Home</a></li>
+              <li><a href="/about">About</a></li>
+              <li><a href="/features">Features</a></li>
+              <li><a href="/tokenomics">Tokenomics</a></li>
+              <li><a href="/roadmap">Roadmap</a></li>
             </ul>
           </div>
           
@@ -52,7 +52,7 @@ const Footer:React.FC = () => {
             <h4>Resources</h4>
             <ul>
               <li><a href="#">Whitepaper</a></li>
-              <li><a href="faq.html">FAQ</a></li>
+              <li><a href="faq">FAQ</a></li>
               <li><a href="#">Documentation</a></li>
               <li><a href="#">Patent Information</a></li>
             </ul>
