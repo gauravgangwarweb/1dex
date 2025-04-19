@@ -1,0 +1,143 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background and definitions -->
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A0E17" stop-opacity="1" />
+      <stop offset="100%" stop-color="#141D2F" stop-opacity="1" />
+    </linearGradient>
+    
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#2563EB" />
+    </linearGradient>
+    
+    <linearGradient id="greenGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    
+    <linearGradient id="blueGreen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+    
+    <!-- Filter for glow effect -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    
+    <!-- Grid pattern for background -->
+    <pattern id="gridPattern" patternUnits="userSpaceOnUse" width="40" height="40">
+      <rect width="40" height="40" fill="none"/>
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(59, 130, 246, 0.1)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGradient)" />
+  <rect width="800" height="600" fill="url(#gridPattern)" />
+  
+  <!-- Title -->
+  <text x="400" y="60" font-family="Arial" font-size="28" font-weight="bold" fill="white" text-anchor="middle">1DEX SECURIO TOKENOMICS</text>
+  
+  <!-- Fee structure visualization -->
+  <g transform="translate(400, 250)">
+    <!-- Outer circle with gradient stroke -->
+    <circle cx="0" cy="0" r="180" fill="none" stroke="url(#blueGreen)" stroke-width="3" />
+    
+    <!-- Token distribution segments -->
+    <!-- 5% Referral System -->
+    <path d="M 0 0 L 173.2 48.8 A 180 180 0 0 0 180 0 Z" fill="url(#blueGradient)" opacity="0.9" />
+    
+    <!-- 10% Token Support System -->
+    <path d="M 0 0 L 173.2 48.8 A 180 180 0 0 0 48.8 173.2 Z" fill="url(#greenGradient)" opacity="0.9" />
+    
+    <!-- 85% Trading and Circulation -->
+    <path d="M 0 0 L 48.8 173.2 A 180 180 0 1 0 180 0 Z" fill="rgba(255, 255, 255, 0.1)" stroke="rgba(255, 255, 255, 0.3)" stroke-width="1" />
+    
+    <!-- Central token symbol -->
+    <circle cx="0" cy="0" r="60" fill="none" stroke="url(#blueGreen)" stroke-width="2" filter="url(#glow)" />
+    <circle cx="0" cy="0" r="55" fill="rgba(59, 130, 246, 0.1)" />
+    <text x="0" y="-10" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">1DEX</text>
+    <text x="0" y="20" font-family="Arial" font-size="18" fill="white" text-anchor="middle">SECURIO</text>
+    
+    <!-- Labels for segments -->
+    <!-- Referral System Label -->
+    <g transform="translate(110, -40)">
+      <rect x="-60" y="-15" width="120" height="30" rx="5" fill="rgba(59, 130, 246, 0.2)" stroke="#3B82F6" stroke-width="1" />
+      <text x="0" y="0" font-family="Arial" font-size="14" fill="white" text-anchor="middle" dominant-baseline="middle">5% REFERRAL</text>
+      <line x1="-70" y1="0" x2="-100" y2="-20" stroke="#3B82F6" stroke-width="1" stroke-dasharray="2,2" />
+    </g>
+    
+    <!-- Token Support System Label -->
+    <g transform="translate(100, 120)">
+      <rect x="-75" y="-15" width="150" height="30" rx="5" fill="rgba(16, 185, 129, 0.2)" stroke="#10B981" stroke-width="1" />
+      <text x="0" y="0" font-family="Arial" font-size="14" fill="white" text-anchor="middle" dominant-baseline="middle">10% TOKEN SUPPORT</text>
+      <line x1="-80" y1="0" x2="-110" y2="40" stroke="#10B981" stroke-width="1" stroke-dasharray="2,2" />
+    </g>
+    
+    <!-- Token Circulation Label -->
+    <g transform="translate(-120, 0)">
+      <rect x="-75" y="-15" width="150" height="30" rx="5" fill="rgba(255, 255, 255, 0.1)" stroke="rgba(255, 255, 255, 0.3)" stroke-width="1" />
+      <text x="0" y="0" font-family="Arial" font-size="14" fill="white" text-anchor="middle" dominant-baseline="middle">85% CIRCULATION</text>
+      <line x1="80" y1="0" x2="120" y2="0" stroke="rgba(255, 255, 255, 0.3)" stroke-width="1" stroke-dasharray="2,2" />
+    </g>
+  </g>
+  
+  <!-- Key features section -->
+  <g transform="translate(400, 480)">
+    <rect x="-350" y="-50" width="700" height="120" rx="10" fill="rgba(255, 255, 255, 0.03)" stroke="rgba(255, 255, 255, 0.1)" stroke-width="1" />
+    
+    <!-- Feature 1 -->
+    <g transform="translate(-260, 0)">
+      <circle cx="0" cy="0" r="25" fill="none" stroke="url(#blueGradient)" stroke-width="2" />
+      <text x="0" y="0" font-family="Arial" font-size="18" font-weight="bold" fill="#3B82F6" text-anchor="middle" dominant-baseline="middle">1</text>
+      <text x="0" y="40" font-family="Arial" font-size="12" fill="white" text-anchor="middle">NO PRE-MINTED</text>
+      <text x="0" y="55" font-family="Arial" font-size="12" fill="white" text-anchor="middle">TOKENS</text>
+    </g>
+    
+    <!-- Feature 2 -->
+    <g transform="translate(-85, 0)">
+      <circle cx="0" cy="0" r="25" fill="none" stroke="url(#blueGradient)" stroke-width="2" />
+      <text x="0" y="0" font-family="Arial" font-size="18" font-weight="bold" fill="#3B82F6" text-anchor="middle" dominant-baseline="middle">2</text>
+      <text x="0" y="40" font-family="Arial" font-size="12" fill="white" text-anchor="middle">SELF-SUSTAINING</text>
+      <text x="0" y="55" font-family="Arial" font-size="12" fill="white" text-anchor="middle">GROWTH</text>
+    </g>
+    
+    <!-- Feature 3 -->
+    <g transform="translate(85, 0)">
+      <circle cx="0" cy="0" r="25" fill="none" stroke="url(#greenGradient)" stroke-width="2" />
+      <text x="0" y="0" font-family="Arial" font-size="18" font-weight="bold" fill="#10B981" text-anchor="middle" dominant-baseline="middle">3</text>
+      <text x="0" y="40" font-family="Arial" font-size="12" fill="white" text-anchor="middle">BALANCED</text>
+      <text x="0" y="55" font-family="Arial" font-size="12" fill="white" text-anchor="middle">BUY/SELL</text>
+    </g>
+    
+    <!-- Feature 4 -->
+    <g transform="translate(260, 0)">
+      <circle cx="0" cy="0" r="25" fill="none" stroke="url(#greenGradient)" stroke-width="2" />
+      <text x="0" y="0" font-family="Arial" font-size="18" font-weight="bold" fill="#10B981" text-anchor="middle" dominant-baseline="middle">4</text>
+      <text x="0" y="40" font-family="Arial" font-size="12" fill="white" text-anchor="middle">REWARDS FOR</text>
+      <text x="0" y="55" font-family="Arial" font-size="12" fill="white" text-anchor="middle">PARTICIPATION</text>
+    </g>
+  </g>
+  
+  <!-- Bottom caption -->
+  <text x="400" y="570" font-family="Arial" font-size="14" fill="#94A3B8" text-anchor="middle">REVOLUTIONARY TOKENOMICS DESIGN THAT BENEFITS ALL PARTICIPANTS</text>
+  
+  <!-- Decorative elements -->
+  <g>
+    <!-- Top left corner decoration -->
+    <path d="M 50 50 L 100 50 L 100 100" fill="none" stroke="url(#blueGreen)" stroke-width="2" stroke-linecap="round" />
+    
+    <!-- Top right corner decoration -->
+    <path d="M 750 50 L 700 50 L 700 100" fill="none" stroke="url(#blueGreen)" stroke-width="2" stroke-linecap="round" />
+    
+    <!-- Bottom left corner decoration -->
+    <path d="M 50 550 L 100 550 L 100 500" fill="none" stroke="url(#blueGreen)" stroke-width="2" stroke-linecap="round" />
+    
+    <!-- Bottom right corner decoration -->
+    <path d="M 750 550 L 700 550 L 700 500" fill="none" stroke="url(#blueGreen)" stroke-width="2" stroke-linecap="round" />
+  </g>
+</svg>

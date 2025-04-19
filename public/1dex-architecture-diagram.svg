@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 900 900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="900" height="900" fill="#0d1117" />
+  
+  <!-- Title Section -->
+  <text x="450" y="60" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="white" text-anchor="middle">1DEX SECURIO TECHNICAL ARCHITECTURE</text>
+  
+  <!-- Interface Layer -->
+  <rect x="90" y="110" width="720" height="100" rx="5" ry="5" fill="transparent" stroke="#2672de" stroke-width="2" />
+  <text x="450" y="140" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">INTERFACE</text>
+  
+  <!-- Interface Modules - Properly centered within parent box -->
+  <rect x="126" y="155" width="80" height="40" rx="5" ry="5" fill="transparent" stroke="#2672de" stroke-width="2" />
+  <text x="166" y="180" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">DEX</text>
+  
+  <rect x="232" y="155" width="80" height="40" rx="5" ry="5" fill="transparent" stroke="#2672de" stroke-width="2" />
+  <text x="272" y="180" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">WALLET</text>
+  
+  <rect x="338" y="155" width="110" height="40" rx="5" ry="5" fill="transparent" stroke="#2672de" stroke-width="2" />
+  <text x="393" y="180" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">DASHBOARD</text>
+  
+  <rect x="474" y="155" width="110" height="40" rx="5" ry="5" fill="transparent" stroke="#2672de" stroke-width="2" />
+  <text x="529" y="180" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">REFERRALS</text>
+  
+  <rect x="610" y="155" width="100" height="40" rx="5" ry="5" fill="transparent" stroke="#2672de" stroke-width="2" />
+  <text x="660" y="180" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">ANALYTICS</text>
+  
+  <rect x="736" y="155" width="74" height="40" rx="5" ry="5" fill="transparent" stroke="#2672de" stroke-width="2" />
+  <text x="773" y="180" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">SUPPORT</text>
+  
+  <circle x1="166" cy="90" r="20" fill="transparent" stroke="#2672de" stroke-width="2" />
+  <circle x1="272" cy="90" r="20" fill="transparent" stroke="#2672de" stroke-width="2" />
+  <circle x1="393" cy="90" r="20" fill="transparent" stroke="#2672de" stroke-width="2" />
+  <circle x1="529" cy="90" r="20" fill="transparent" stroke="#2672de" stroke-width="2" />
+  <circle x1="660" cy="90" r="20" fill="transparent" stroke="#2672de" stroke-width="2" />
+  <circle x1="773" cy="90" r="20" fill="transparent" stroke="#2672de" stroke-width="2" />
+  
+  <line x1="166" y1="90" x2="166" y2="155" stroke="#2672de" stroke-width="2" />
+  <line x1="272" y1="90" x2="272" y2="155" stroke="#2672de" stroke-width="2" />
+  <line x1="393" y1="90" x2="393" y2="155" stroke="#2672de" stroke-width="2" />
+  <line x1="529" y1="90" x2="529" y2="155" stroke="#2672de" stroke-width="2" />
+  <line x1="660" y1="90" x2="660" y2="155" stroke="#2672de" stroke-width="2" />
+  <line x1="773" y1="90" x2="773" y2="155" stroke="#2672de" stroke-width="2" />
+
+  <!-- Transaction Processing Layer -->
+  <rect x="90" y="250" width="720" height="80" rx="5" ry="5" fill="transparent" stroke="#26de81" stroke-width="2" />
+  <text x="450" y="295" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">TRANSACTION PROCESSING LAYER</text>
+  
+  <!-- Arrows -->
+  <line x1="450" y1="210" x2="450" y2="250" stroke="#26de81" stroke-width="2" stroke-dasharray="5,5" />
+  <polygon points="240,290 190,290 205,270" fill="#26de81" />
+  <polygon points="660,290 710,290 695,270" fill="#26de81" />
+  
+  <!-- Patent-Filed Security Layer -->
+  <rect x="90" y="370" width="720" height="220" rx="5" ry="5" fill="transparent" stroke="#2672de" stroke-width="2" />
+  <text x="450" y="405" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">PATENT-FILED SECURITY LAYER</text>
+  
+  <!-- Security Features -->
+  <rect x="140" y="435" width="180" height="80" rx="5" ry="5" fill="transparent" stroke="#2672de" stroke-width="2" />
+  <text x="230" y="475" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2672de" text-anchor="middle">PUMP-AND-DUMP</text>
+  <text x="230" y="500" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2672de" text-anchor="middle">PROTECTION</text>
+  
+  <rect x="360" y="435" width="180" height="80" rx="5" ry="5" fill="transparent" stroke="#2672de" stroke-width="2" />
+  <text x="450" y="475" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2672de" text-anchor="middle">LIQUIDITY</text>
+  <text x="450" y="500" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2672de" text-anchor="middle">ASSURANCE</text>
+  
+  <rect x="580" y="435" width="180" height="80" rx="5" ry="5" fill="transparent" stroke="#2672de" stroke-width="2" />
+  <text x="670" y="475" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2672de" text-anchor="middle">UPWARD PRICE</text>
+  <text x="670" y="500" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2672de" text-anchor="middle">MOMENTUM</text>
+  
+  <!-- Connecting Lines -->
+  <line x1="230" y1="330" x2="230" y2="370" stroke="#26de81" stroke-width="2" />
+  <line x1="450" y1="330" x2="450" y2="370" stroke="#26de81" stroke-width="2" />
+  <line x1="670" y1="330" x2="670" y2="370" stroke="#26de81" stroke-width="2" />
+  
+  <!-- Contract Layer -->
+  <rect x="90" y="630" width="720" height="100" rx="5" ry="5" fill="transparent" stroke="#26de81" stroke-width="2" />
+  <text x="450" y="665" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">CONTRACT</text>
+  
+  <!-- Contract Components - Properly centered within parent box -->
+  <rect x="125" y="675" width="120" height="40" rx="5" ry="5" fill="transparent" stroke="#26de81" stroke-width="2" />
+  <text x="185" y="700" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">TOKEN LOGIC</text>
+  
+  <rect x="275" y="675" width="140" height="40" rx="5" ry="5" fill="transparent" stroke="#26de81" stroke-width="2" />
+  <text x="345" y="700" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">SECURITY VAULT</text>
+  
+  <rect x="445" y="675" width="140" height="40" rx="5" ry="5" fill="transparent" stroke="#26de81" stroke-width="2" />
+  <text x="515" y="700" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">FEE MANAGER</text>
+  
+  <rect x="615" y="675" width="170" height="40" rx="5" ry="5" fill="transparent" stroke="#26de81" stroke-width="2" />
+  <text x="700" y="700" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">REFERRAL SYSTEM</text>
+  
+  <!-- Connecting Lines -->
+  <line x1="230" y1="515" x2="230" y2="630" stroke="#26de81" stroke-width="2" />
+  <line x1="450" y1="515" x2="450" y2="630" stroke="#26de81" stroke-width="2" />
+  <line x1="670" y1="515" x2="670" y2="630" stroke="#26de81" stroke-width="2" />
+  
+  <!-- Blockchain Layer -->
+  <rect x="90" y="770" width="720" height="80" rx="5" ry="5" fill="transparent" stroke="#2672de" stroke-width="2" />
+  <text x="450" y="820" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">BLOCKCHAIN LAYER</text>
+  
+  <!-- Blockchain Circles -->
+  <circle cx="180" cy="810" r="20" fill="transparent" stroke="#2672de" stroke-width="2" />
+  <circle cx="280" cy="810" r="20" fill="transparent" stroke="#2672de" stroke-width="2" />
+  <circle cx="380" cy="810" r="20" fill="transparent" stroke="#2672de" stroke-width="2" />
+  <circle cx="520" cy="810" r="20" fill="transparent" stroke="#2672de" stroke-width="2" />
+  <circle cx="620" cy="810" r="20" fill="transparent" stroke="#2672de" stroke-width="2" />
+  <circle cx="720" cy="810" r="20" fill="transparent" stroke="#2672de" stroke-width="2" />
+  
+  <!-- Connecting Lines -->
+  <line x1="185" y1="730" x2="185" y2="770" stroke="#2672de" stroke-width="2" />
+  <line x1="345" y1="730" x2="345" y2="770" stroke="#2672de" stroke-width="2" />
+  <line x1="515" y1="730" x2="515" y2="770" stroke="#2672de" stroke-width="2" />
+  <line x1="700" y1="730" x2="700" y2="770" stroke="#2672de" stroke-width="2" />
+</svg>
