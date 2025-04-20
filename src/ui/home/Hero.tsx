@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
       </svg>
       <div className="hero-background"></div>
       <div className="container">
-        <h2>THE FIRST PATENT-PROTECTED TOKEN THAT ENSURES TRADER SECURITY</h2>
+        <h2 className="text-base">THE FIRST PATENT-PROTECTED TOKEN THAT ENSURES TRADER SECURITY</h2>
         <p>TRADING REIMAGINED. SECURITY ASSURED.</p>
         <p>THE CRYPTO REVOLUTION YOU'VE BEEN WAITING FOR</p>
 
