@@ -13,10 +13,21 @@ const Hero: React.FC = () => {
       </svg>
       <div className="hero-background"></div>
       <div className="container">
-        <h2 className="text-base">THE FIRST PATENT-PROTECTED TOKEN THAT ENSURES TRADER SECURITY</h2>
+        <h2 className="text-base">
+          THE FIRST PATENT-PROTECTED TOKEN THAT ENSURES{" "}
+          <span className="relative inline-block">
+            <span className="bg-gradient-to-r from-blue-500 to-green-500 bg-clip-text text-transparent">
+              TRADER SECURITY
+            </span>
+            <span className="absolute bottom-0 left-0 w-full h-[2px] bg-gradient-to-r from-blue-500 to-green-500"></span>
+          </span>
+        </h2>
         <p>TRADING REIMAGINED. SECURITY ASSURED.</p>
         <p>THE CRYPTO REVOLUTION YOU'VE BEEN WAITING FOR</p>
-
+        <div className="cta-buttons mb-10">
+          <button className="secondary-btn">CONNECT WALLET</button>
+          <button className="primary-btn">GET WHITEPAPER</button>
+        </div>
         <div className="container max-w-[900px] mt-[50px]">
           <p>
             Introducing 1DEX Securio - the world's first patent-filed token
@@ -27,13 +38,7 @@ const Hero: React.FC = () => {
           <div className="features-grid mt-[40px]">
             <div className="feature-card">
               <div className="feature-icon">
-                <svg
-                  style={{ background: "" }}
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm-1-7v2h2v-2h-2zm0-8v6h2V7h-2z"></path>
-                </svg>
+                <img className="rounded-full" loading="lazy" src="round-coin-logo.png" alt="round-coin" />
               </div>
               <h4>100% Pump-and-Dump Protection</h4>
               <p>
@@ -44,9 +49,7 @@ const Hero: React.FC = () => {
 
             <div className="feature-card">
               <div className="feature-icon">
-                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm-1-7v2h2v-2h-2zm0-8v6h2V7h-2z" />
-                </svg>
+              <img className="rounded-full" loading="lazy" src="round-coin-logo.png" alt="round-coin" />
               </div>
               <h4>100% Liquidity Assured, Always</h4>
               <p>
@@ -57,9 +60,7 @@ const Hero: React.FC = () => {
 
             <div className="feature-card">
               <div className="feature-icon">
-                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm-1-7v2h2v-2h-2zm0-8v6h2V7h-2z" />
-                </svg>
+              <img className="rounded-full" loading="lazy" src="round-coin-logo.png" alt="round-coin" />
               </div>
               <h4>Focused on Growth</h4>
               <p>
@@ -70,9 +71,7 @@ const Hero: React.FC = () => {
 
             <div className="feature-card">
               <div className="feature-icon">
-                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm-1-7v2h2v-2h-2zm0-8v6h2V7h-2z" />
-                </svg>
+              <img className="rounded-full" loading="lazy" src="round-coin-logo.png" alt="round-coin" />
               </div>
               <h4>5% Referral Rewards</h4>
               <p>
@@ -81,11 +80,6 @@ const Hero: React.FC = () => {
               </p>
             </div>
           </div>
-        </div>
-
-        <div className="cta-buttons">
-          <button className="primary-btn">GET WHITEPAPER</button>
-          <button className="secondary-btn">CONNECT WALLET</button>
         </div>
       </div>
     </section>
