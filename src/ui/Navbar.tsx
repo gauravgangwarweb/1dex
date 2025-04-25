@@ -7,6 +7,18 @@ const Navbar: React.FC = () => {
     <header className="fixed w-full top-0 left-0 bg-white/90 backdrop-blur-sm z-50">
       <div className="container mx-auto px-4">
         <nav className="flex items-center justify-between md:h-20">
+          
+
+          {/* Logo */}
+          <div className="flex items-center gap-1">
+            <img
+              className="h-10 w-auto rounded-full"
+              loading="lazy"
+              src="/round-coin-logo.png"
+              alt="1DEX Securio Logo"
+            />
+            <h1 className="logo-h1 text-xl md:text-2xl">1DEX SECURIO</h1>
+          </div>
           {/* Hamburger Menu Button */}
           <button
             className="lg:hidden px-2 focus:outline-none"
@@ -36,18 +48,6 @@ const Navbar: React.FC = () => {
               )}
             </svg>
           </button>
-
-          {/* Logo */}
-          <div className="flex items-center">
-            <img
-              className="h-10 w-auto rounded-full"
-              loading="lazy"
-              src="/round-coin-logo.png"
-              alt="1DEX Securio Logo"
-            />
-            <h1 className="sr-only">1DEX SECURIO</h1>
-          </div>
-
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center space-x-8">
             <a href="/" className="nav-link active">

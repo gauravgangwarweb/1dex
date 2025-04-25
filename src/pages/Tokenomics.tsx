@@ -82,7 +82,7 @@ const Tokenomics: React.FC = () => {
             <div className="max-w-[800px] my-0 mx-auto">
               <img
                 className="w-full rounded-xl"
-                src="/1dex-tokenomics-visualization.svg"
+                src="/1dex-tokenomics-simple.svg"
                 alt="Tokenomics Visualization"
                 style={{ boxShadow: "0 20px 40px rgba(0, 0, 0, 0.3)" }}
               />
