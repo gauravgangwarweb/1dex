@@ -157,8 +157,8 @@ const HowItWorks:React.FC = () => {
               </div>
             </div>
             
-            <div className="text-center mt-[40px]">
-              <img className="max-w-full rounded-[12px]" style={{ boxShadow: "0 20px 40px rgba(0, 0, 0, 0.3)" }} src="/1dex-architecture-diagram.svg" alt="Technical Architecture Diagram" />
+            <div className="flex flex-col items-center justify-center text-center mt-[40px]">
+              <img className="max-w-full rounded-[12px]" style={{ boxShadow: "0 20px 40px rgba(0, 0, 0, 0.3)" }} src="/1dex-securio.png" alt="Technical Architecture Diagram" />
               <p className="text-[#94A3B8] mt-[20px] italic">The 1DEX Securio token smart contract architecture</p>
             </div>
           </div>
